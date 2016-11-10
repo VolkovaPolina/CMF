@@ -10,8 +10,6 @@ import re
 from bs4 import BeautifulSoup   
 import math 
 
-
-print (pd.__version__)
 #Будем использовать регулярные выражения 
 def html_stripper(text):
     return re.sub('<[^<]+?>', '', str(text))
